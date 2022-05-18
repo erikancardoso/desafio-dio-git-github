@@ -50,7 +50,7 @@ O Git é um sistema de versionamento de controle distribuido
 #### criar um diretório
   >$ mkdir LivroDeReceitas
 #### criar um arquivo dentro do diretório criado anteriormente
-  ~LivroDeReceitas$ echo "Lazanha" > READMI.md
+  >~LivroDeReceitas $ echo "Lazanha" > READMI.md
  
 
 ## 6º tracked(unmodified, modified, staged) = ciclo de vida do arquivo
