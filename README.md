@@ -69,6 +69,12 @@ O Git é um sistema de versionamento de controle distribuido
   >$ git push origin master
  ##### pedirá para digitar o usuário github e a senha que será o token de acesso //sucessfull ou erro de merge 
 ### 8º Corrigindo erro de merge 
+ ##### puxar o codigo atualizado do GitHub par poder fazer suas alterações e então enviar para o Github novamente.
+ >$ git pull origin master
+ ### 9º Alguns comandos extras
+ #### Verificar histórico de commits por ordem cronológica 
+ >$ git log
+ 
  
  
  
