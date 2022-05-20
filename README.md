@@ -74,6 +74,7 @@ O Git é um sistema de versionamento de controle distribuido
  ### 9º Alguns comandos extras
  #### Verificar histórico de commits por ordem cronológica 
  >$ git log
+ ### Se já fez toda a configuração do inicial do git é so clonar o repositorio no diretorio local e fazer as mofificações após isso é possivel fazer os commits tranquilamente.
  
  
  
