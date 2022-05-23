@@ -66,11 +66,11 @@ O Git é um sistema de versionamento de controle distribuido
 ###### arquivo.txt = staged // git status apos o commit não aparecerá nada para ser commitado ou sejá volta a ser unmodifield
  
  ### 7º subindo para o repositorio remoto
-  >$ git push origin master
+  >$ git push origin main
  ##### pedirá para digitar o usuário github e a senha que será o token de acesso //sucessfull ou erro de merge 
 ### 8º Corrigindo erro de merge 
  ##### puxar o codigo atualizado do GitHub par poder fazer suas alterações e então enviar para o Github novamente.
- >$ git pull origin master
+ >$ git pull origin main
  ### 9º Alguns comandos extras
  #### Verificar histórico de commits por ordem cronológica 
  >$ git log
