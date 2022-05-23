@@ -75,10 +75,10 @@ O Git é um sistema de versionamento de controle distribuido
  #### Verificar histórico de commits por ordem cronológica 
  >$ git log
  ### Se já fez toda a configuração do inicial do git é so clonar o repositorio no diretorio local e fazer as mofificações após isso é possivel fazer os commits tranquilamente.
- ### Caso a branch esteja como master deve alterar para a main
- Renomear o branch local usando o -m de move: 
+ Caso a branch esteja como master deve alterar para a main
+ ####Renomear o branch local usando o -m de move: 
  > $ git branch -m master main
-Subir para o repositório com o novo nome. E usei -u para indicar que é o upstream: 
+####Subir para o repositório com o novo nome. E usei -u para indicar que é o upstream: 
  > $ git push -u origin main
  
  
