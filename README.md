@@ -85,8 +85,9 @@ O Git é um sistema de versionamento de controle distribuido
  
  ###Resolvendo conflito de merge no terminal
  usei o ItellijIdea
- Para ver o começo do conflito de merge no arquivo,pesquise por chenges na ide <<<<<<< no arquivo. Quando abrir, você verá as alterações do branch HEAD ou base após a linha <<<<<<< HEAD. Em seguida, você verá =======, que divide suas alterações das alterações no outro branch, seguido por >>>>>>> BRANCH-NAME. Neste exemplo, uma pessoa escreveu "open an issue" (abrir um problema) no branch base ou HEAD e outra pessoa escreveu "ask your question in IRC" (faça sua pergunta no IRC) no branch de comparação ou branch-a.
+Para ver o começo do conflito de merge no arquivo,pesquise por chenges na ide <<<<<<< no arquivo. Quando abrir, você verá as alterações do branch HEAD ou base após a linha <<<<<<< HEAD. Em seguida, você verá =======, que divide suas alterações das alterações no outro branch, seguido por >>>>>>> BRANCH-NAME. Neste exemplo, uma pessoa escreveu "open an issue" (abrir um problema) no branch base ou HEAD e outra pessoa escreveu "ask your question in IRC" (faça sua pergunta no IRC) no branch de comparação ou branch-a.
 
+ 
  If you have questions, please
  <<<<<<< HEAD
  open an issue
@@ -100,7 +101,7 @@ Decida se você deseja manter apenas as alterações do seu branch, manter apena
 
 adicione novamente na linha de comando
 >$ git add *
-faça o commit e depois o push, done.
+######faça o commit e depois o push, done.
  
  
  
