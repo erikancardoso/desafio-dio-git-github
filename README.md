@@ -96,11 +96,10 @@ O Git é um sistema de versionamento de controle distribuido
  
 Decida se você deseja manter apenas as alterações do seu branch, manter apenas as alterações do outro branch, ou fazer uma nova alteração, que pode incorporar alterações de ambos os branches. Exclua os marcadores de conflito <<<<<<< HEAD, ============= >>>>>>> BRANCH-NOME/sh1 e faça as alterações desejadas no merge final. Neste exemplo, as duas alterações são incorporadas ao merge final:
 
-If you have questions, please open an issue or ask in our IRC channel if it's more urgent.
-Adicione ou faça stage das alterações.
+>If you have questions, please open an issue or ask in our IRC channel if it's more urgent.
 
 adicione novamente na linha de comando
-$ git add *
+>$ git add *
 faça o commit e depois o push, done.
  
  
