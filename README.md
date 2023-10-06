@@ -58,7 +58,7 @@ O Git é um sistema de versionamento de controle distribuido
 ##### verificar o status para saber qual a situação dos documentos
  
 ###### arquivo.txt baixado/criado = unmodifield // após a modificação no git status aparecerá escrito modified(vermelho), pedirá para usar
-  >$ git add *
+  >$ git add .
  
 ###### arquivo.txt = modified // git status aparecerá escrito modifiel (verde) - staged 
   >$ git commit -m "Meu primeiro Commit"
