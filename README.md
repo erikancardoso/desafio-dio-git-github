@@ -5,7 +5,13 @@ O Git é um sistema de versionamento de controle distribuido
  https://git-scm.com/downloads
  
 ## 2º Gerar par de chaves local para poder usar o repositório remoto
-  >$ ssh-keygen -t -C <email do GitHub>
+### 1 Abra Terminal.
+### 2 Cole o texto abaixo, substituindo o email usado no exemplo pelo seu endereço de email do GitHub.
+  >$  ssh-keygen -t ed25519 -C "your_email@example.com"
+## 3º Adicionar a chave ssh ao ssh-agent
+>$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+
 ### entrar na pasta das chaves
   >$ cd / .ssh/
 ### listar as chaves
